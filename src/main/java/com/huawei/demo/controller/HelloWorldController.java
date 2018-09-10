@@ -23,6 +23,7 @@ public class HelloWorldController {
     public String hello(HttpServletRequest request, HttpServletResponse response)
     {
 
+
         return "Hello World   "+request.getAttribute("wang");
     }
 
