@@ -23,7 +23,7 @@ public class HelloWorldController {
     public String hello(HttpServletRequest request, HttpServletResponse response)
     {
 
-
+        System.out.println("git");
         return "Hello World   "+request.getAttribute("wang");
     }
 
